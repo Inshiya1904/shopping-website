@@ -1,0 +1,52 @@
+
+.header{
+    width: 80%;
+    margin: 10px auto;
+    
+}
+.header h1{
+    color: tomato;
+    font-size: 40px;
+}
+.header .header-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header-items {
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     gap: 40px;
+}
+.header-items  h2{
+    font-size: 25px;
+    color: rgb(23, 23, 23);
+}
+.cart-content {
+     display: flex;
+     align-items: center;
+     
+}
+
+.cart-content .cart-icon {
+    font-size: 30px;
+    color: black;
+}
+.cart-content  .cart-count {
+    margin-bottom: 18px;
+    font-size: 18px;
+    font-weight: bold;
+    color: red;  
+
+}
+button{
+    padding: 7px 20px;
+    border-radius: 30px;
+    font-size: 15px;
+    font-weight: 400;
+    border: none;
+    background-color: #008066;
+    color: white;
+    
+}
