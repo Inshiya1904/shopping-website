@@ -18,7 +18,7 @@ const App = () => {
         <Route path='/cart' element={<ProtectedRoute><Cart/></ProtectedRoute>}/>
         <Route path='/products/:id' element={<ProtectedRoute><ProductDetail/></ProtectedRoute>}/>
       </Routes>
-      <Footer/>
+      {location.pathname !== '/' && <Footer/>}
       </>
       
 
