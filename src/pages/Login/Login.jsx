@@ -33,29 +33,6 @@ export default function Login() {
   };
 
   return (
-    // <div className="login-page">
-    //   <div className="login-container">
-    //   <h2>Login</h2>
-    //   <form  onSubmit={handleLogin}>
-    //     <input
-    //       type="text"
-    //       placeholder="username"
-    //       value={username}
-    //       onChange={(e) => setUsername(e.target.value)}
-    //       required
-    //     />
-    //     <input
-    //       type="password"
-    //       placeholder="password"
-    //       value={password}
-    //       onChange={(e) => setPassword(e.target.value)}
-    //       required
-    //     />
-    //     {error && <p style={{ color: "red" }}>{error}</p>}
-    //     <button type="submit">Login</button>
-    //   </form>
-    //   </div>
-    // </div>
     <div className='login-popup'>
       <form action="" onSubmit={handleLogin}
        className="login-popup-container">
